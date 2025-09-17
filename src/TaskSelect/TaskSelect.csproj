@@ -5,7 +5,6 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<PackageId>Task.Select</PackageId>
-		<Version>0.1.0</Version>
 		<PackageTags>Task;Select;LINQ;Async;Await;Extensions;Helpers</PackageTags>
 		<Authors>Dearain</Authors>
 		<Description>Provides extension methods for selecting and transforming tasks in an asynchronous manner.</Description>
@@ -13,5 +12,12 @@
 		<RepositoryUrl>https://github.com/d3ara1n/Task.Select</RepositoryUrl>
 		<PackageProjectUrl>https://github.com/d3ara1n/Task.Select</PackageProjectUrl>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="GitVersion.MsBuild" Version="6.4.0">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	</ItemGroup>
 
 </Project>
