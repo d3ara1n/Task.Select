@@ -1,8 +1,14 @@
 # Task.Select
 
-*This project requires **C# 10.0** or higher and targets **.NET 10.0**.*
+*This project requires **C# 14.0** or higher and targets **.NET 10.0**.*
 
 ## Usage
+
+```sh
+dotnet add package Task.Select
+```
+
+In your code, you can use the `Task.Select` method to run multiple tasks in parallel and await their results in a more concise way.
 
 ```csharp
 
