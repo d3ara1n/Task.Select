@@ -11,13 +11,18 @@
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<RepositoryUrl>https://github.com/d3ara1n/Task.Select</RepositoryUrl>
 		<PackageProjectUrl>https://github.com/d3ara1n/Task.Select</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="GitVersion.MsBuild" Version="6.4.0">
-	    <PrivateAssets>all</PrivateAssets>
-	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-	  </PackageReference>
+		<None Include="../../README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="GitVersion.MsBuild" Version="6.4.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
 	</ItemGroup>
 
 </Project>
