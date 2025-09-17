@@ -1,4 +1,4 @@
-﻿namespace Task.Select
+﻿namespace TaskSelect
 {
     public static class Extensions
     {

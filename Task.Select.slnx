@@ -1,3 +1,7 @@
 <Solution>
-  <Project Path="src/Task.Select/Task.Select.csproj" />
+  <Folder Name="/Misc/">
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="src/TaskSelect.Tests/TaskSelect.Tests.csproj" Id="fbdbfd14-bdb3-4804-8ba4-bd2f5f0b9264" />
+  <Project Path="src/TaskSelect/TaskSelect.csproj" />
 </Solution>
